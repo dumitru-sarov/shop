@@ -19,4 +19,7 @@ else
 fi
 # Remove
 
+sed -i "s/$1//g" items
+sed -i '/^$/d' items
+
 # Update
